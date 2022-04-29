@@ -9,7 +9,7 @@ def sendwhatmsg(to,msg):
     pywhatkit.sendwhatmsg(str("+91")+to,msg,0,20)
 
 
-#pywhatkit.sendwhatmsg("+917995968782","GOOD EVENING",18,37)
+#pywhatkit.sendwhatmsg("+91+phone_no","GOOD EVENING",18,37)
 
 if __name__ == "__main__":
     df = pd.read_excel("data.xlsx")
